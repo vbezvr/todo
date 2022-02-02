@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Work+Sans&display=swap" rel="stylesheet">
+    <title>ToDo</title>
+</head>
+<body>
+    <div class="page">
+        <h1>HIGH</h1>
+        <form onsubmit="return false;" id = "high_block">
+            <div class="input-task" id = "high_input">
+                <input type="text" class="new-task"  placeholder="Добавить важных дел">
+                <input type="image" class="new-task" src="img/close-icon.svg">
+            </div>
+        </form>
+       <h1>LOW</h1>
+       <form onsubmit="return false;">
+        <div class="input-task" id="low_input">
+            <input type="text" class="new-task" placeholder="Добавить важных дел">
+            <input type="image" class="new-task" src="img/close-icon.svg">
+        </div>
+        </form>
+    </div>
+    <script type="module" src="./main.js"></script>
+</body>
+</html>
